@@ -22,7 +22,7 @@ public class ExpManager : Singleton<ExpManager>, IDisposable
             else
             {
                 CommitAll();
-                _restQuantity = value - _restQuantity;
+                RestQuantity = value - _restQuantity;
             }
         }
     }
